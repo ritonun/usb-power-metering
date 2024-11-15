@@ -26,7 +26,12 @@ RF1, RF2, CF: Use for filter (not required), 10R, 10R, 0.1µF
 Pin A0 and A1 will not be configurable.  
 
 ## USB-C Controller
+A HUSB238 is used as en USB-C Controller.
+![](attachments/husb238-pinout.png)  
 
+### Footprints creation
+The HUSB238 footprints is not included and Kicad and any symbols libraries.  It need to be made manually.  
+![](attachments/HUSB238-DFN-10L-package-dimensions.png)
 
 ## References
 [HUSB238](https://www.hynetek.com/uploadfiles/site/219/news/aabbbbdb-48c9-4a44-a6dc-2c15f53282e6.pdf)  

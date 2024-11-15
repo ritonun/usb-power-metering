@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.334 -10.16 0)
+			(at 5.842 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "HUSB238-DFN-10L"
-			(at 0.254 8.128 0)
+			(at 0 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -2.54 1.27 0)
+			(at -3.81 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -2.54 1.27 0)
+			(at -3.81 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -2.54 1.27 0)
+			(at -3.81 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,22 +49,20 @@
 				(hide yes)
 			)
 		)
-		(symbol "HUSB238-DFN-10L_0_1"
+		(symbol "HUSB238-DFN-10L_1_1"
 			(rectangle
-				(start -6.35 5.08)
-				(end 6.35 -8.89)
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "HUSB238-DFN-10L_1_1"
 			(pin power_in line
-				(at -8.89 3.81 0)
+				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -82,7 +80,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 3.81 180)
+				(at 10.16 6.35 180)
 				(length 2.54)
 				(name "GATE"
 					(effects
@@ -100,7 +98,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -11.43 90)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -118,7 +116,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "D+"
 					(effects
@@ -136,7 +134,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -1.27 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "D-"
 					(effects
@@ -154,7 +152,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -3.81 0)
+				(at -10.16 -3.81 0)
 				(length 2.54)
 				(name "CC1"
 					(effects
@@ -172,7 +170,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -6.35 0)
+				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "CC2"
 					(effects
@@ -190,7 +188,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -6.35 180)
+				(at 10.16 -6.35 180)
 				(length 2.54)
 				(name "SDA"
 					(effects
@@ -208,7 +206,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -3.81 180)
+				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -226,7 +224,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 -1.27 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "VSET"
 					(effects
@@ -244,7 +242,7 @@
 				)
 			)
 			(pin input line
-				(at 8.89 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "ISET"
 					(effects
